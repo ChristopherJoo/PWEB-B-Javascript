@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Registrasi Mahasiswa</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="login">
+		<form action="#" method="POST" onSubmit="validasi()">
+			<div>
+				<label>Nama Mahasiswa   :</label>
+				<input type="text" name="nama" id="nama" />
+			</div>
+            <div>
+				<label>NRP  :</label>
+				<input type="number" name="nrp" id="nrp" />
+			</div>
+            <div>
+				<label>Mata Kuliah      :</label>
+				<input type="text" name="matkul" id="matkul" />
+			</div>
+            <div>
+				<label>Nama Dosen       :</label>
+				<input type="text" name="namdos" id="namdos" />
+			</div>
+			<div>
+				<center> <input type="submit" value="Daftar" class="tombol"> </center>
+			</div>
+		</form>
+	</div>
+</body>
+<script type="text/javascript">
+	function validasi() {
+		var nama = document.getElementById("nama").value;
+		var nrp = document.getElementById("nrp").value;
+		var matkul = document.getElementById("matkul").value;
+        var namdos = document.getElementById("namdos").value;
+		if (nama != "" && nrp !="" && matkul !="" && namdos !="") {
+			return true;
+		}else{
+			alert('Anda harus mengisi data dengan lengkap !');
+		}
+	}
+</script>
+</html>

@@ -1,0 +1,43 @@
+body {
+    background: #ffdcdc;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+   
+  h2 {
+    color: #ffffff;
+  }
+   
+  .login {
+    padding: 1em;
+    margin: 5em auto;
+    width: 30em;
+    background: #eda587;
+    border-radius: 24px;
+  }
+   
+  label {
+    font-size: 10pt;
+    color: #ffffff;
+  }
+   
+  input[type="text"],
+  input[type="number"],
+  textarea {
+    padding: 6px;
+    width: 95%;
+    background: #efefefed;
+    border: 10;
+    font-size: 12pt;
+    margin: 9px 0px;
+  }
+
+  input[type="submit"]{
+  width: 33em;
+  }
+
+  .tombol {
+    background: #3249f1;
+    color: #fff;
+    border: 0;
+    padding: 5px 8px;
+  }
